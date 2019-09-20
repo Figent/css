@@ -12,3 +12,54 @@
 .redtext{
     color: red;
 }
+
+#body{
+    background-color: #00ccff;
+    font-size: 14px;
+
+}
+
+#topbar{
+    height: 40px;
+    background-color: white;
+}
+
+#topbar #left{
+    width: 30%;
+    float: left;
+    height: 100%;
+    font-size: 30px;
+}
+
+#topbar b{
+    color: #00ccff;
+}
+
+#topbar #right{
+    width: 40%;
+    float: right;
+    height: 100%;
+    font-size: 30px;
+    
+}
+
+#topbar #right a{
+    display: inline;
+    text-decoration: none;
+    background-color: #00ccff6c;
+    padding: 18px;
+    font-size: 18px;
+    color: white;
+    
+    
+}
+
+#topbar #right a:hover{
+    display: inline;
+    text-decoration: none;
+    background-color: black;
+    padding: 18px;
+    font-size: 25px;
+    color: white;
+    
+}
