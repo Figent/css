@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .wheattext{
     color: wheat;
     font-family: sans-serif;
@@ -8,7 +12,7 @@
 }
 
 #body{
-    background-image: url(Ndovu.jpg);
+    /* background-image: url(housekey1.jpg); */
     font-size: 14px;
 
 }
@@ -16,6 +20,8 @@
 #topbar{
     height: 50px;
     background-color: white;
+    position: static;
+    
     
 }
 
@@ -27,7 +33,7 @@
 }
 
 #topbar b{
-    color: #00ccff;
+    color: #04a341;
 }
 
 #topbar #right{
@@ -62,13 +68,15 @@
 }
 #bottombar{
     height: 80%;
-    background-color: rgba(0, 0, 0, 0.452);
-    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-size: 50px;
+    text-align: center;
 
 }
 
 #bottombar #right {
-    /* background-image: url(Simba.jpg); */
+    background-image: url(cubehouse.jpg);
     float: right;
     width: 50%;
     background-color: rgba(17, 17, 17, 0.76);
@@ -76,10 +84,30 @@
 }
 
 #bottombar #left{
-    background-color: rgba(12, 12, 12, 0.795);
-    height: 90%;
-    font-size: 35px;
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    height: 50%;
+    font-size: 40px;
+    text-align: left;
     padding-top: 50px;
+    width: 40%;
+    
     
 }
+#bottombar b{
+    color: #04a341;
+}
+#footer_inner {
+    margin: auto;
+    padding: 30px 20px 0;
+    margin-top: -100px;
+    font-size: 15px;
+    background: #fafafa;
+    color: #c9cbcb;
+    clear: both;
+}
+ #footer_inner #left{
+     width: 20%;
+     height: 100%;
+     text-align: left;
+     font-size: 12px;
+ }
